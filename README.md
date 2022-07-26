@@ -64,6 +64,11 @@ git push -u origin master
 git pull origin master
 git push origin master
 
+注：如果是本地init仓库，直接push到远程仓库时，会提示仓库冲突，是因为刚建的远程仓库里有readme文件。这时候需要先git pull origin master，同上。
+
+但是此时还会报错：拒绝合并不相关的历史fatal: refusing to merge unrelated histories，因为本地仓库和远程仓库实际上是独立的两个库。
+执行： git pull origin master --allow-unrelated-histories 即可。
+
 4、外网访问
 http://CedarGuo.github.io/
 
