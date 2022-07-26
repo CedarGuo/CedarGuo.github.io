@@ -51,7 +51,7 @@ git add -A
 
 git commit -m "ssh 连接测试"
 
-git push -u origin master
+git push -u origin master，之后git push即可，push比较慢，可能会超时，多试几次。
 
 注：如果提示连接失败，可能是网络原因，重试ssh -T git@github.com 或者 ssh -T -p 443 git@ssh.github.com即可。
 

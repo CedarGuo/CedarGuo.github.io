@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Tech&amp;SciBlogByCedar</title>
-    <link>http://CedarGuo.github.io/publication/</link>
+    <link>http://cedarguo.github.io/publication/</link>
     <description>Recent content in Publications on Tech&amp;SciBlogByCedar</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; cedar, 2022 </copyright>
-    <lastBuildDate>Tue, 12 Jul 2016 16:37:31 +0200</lastBuildDate><atom:link href="http://CedarGuo.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jul 2016 16:37:31 +0200</lastBuildDate><atom:link href="http://cedarguo.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning</title>
-      <link>http://CedarGuo.github.io/publication/learning/</link>
+      <link>http://cedarguo.github.io/publication/learning/</link>
       <pubDate>Tue, 12 Jul 2016 16:37:31 +0200</pubDate>
       
-      <guid>http://CedarGuo.github.io/publication/learning/</guid>
+      <guid>http://cedarguo.github.io/publication/learning/</guid>
       <description>You can add information in $\LaTeX$ and Markdown here.</description>
     </item>
     

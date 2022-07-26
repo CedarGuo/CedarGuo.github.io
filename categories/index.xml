@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Tech&amp;SciBlogByCedar</title>
-    <link>http://CedarGuo.github.io/categories/</link>
+    <link>http://cedarguo.github.io/categories/</link>
     <description>Recent content in Categories on Tech&amp;SciBlogByCedar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; cedar, 2022 </copyright><atom:link href="http://CedarGuo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; cedar, 2022 </copyright><atom:link href="http://cedarguo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
