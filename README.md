@@ -1,4 +1,4 @@
-# CedarGuo.github.io
+# 利用github pages服务器和hugo静态网站生成器，制作个人网站：
 
 1、content目录里放的是你写的markdown文章，layouts目录里放的是网站的模板文件，static目录里放的是一些图片、css、js等资源，
 theme是主题格式，public存放所有编译后的静态页面，也是推送到github的文件夹。
@@ -88,4 +88,6 @@ theme = "hugo-academic-group" 改为自己theme文件夹下的主题
 本地编译： hugo
 
 推送远程仓库
+
+片刻就会生效
 
