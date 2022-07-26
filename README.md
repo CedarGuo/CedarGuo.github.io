@@ -5,19 +5,22 @@ theme是主题格式，public存放所有编译后的静态页面，也是推送
 
 博客日志，最好将md文件放在site/content/post目录里。
 
-2、本地启动Hugo参考：https://www.gohugo.org/
+2、本地安装Hugo、启动Hugo服务器参考：https://www.gohugo.org/
 
 hugo server --theme=hyde --buildDrafts
 
-3、部署到github pages：
-
-上传博客到post路径之后，需要在站点根目录执行hugo命令生成最终页面：
-
-在站点根目录执行：hugo --theme=hyde --baseUrl="http://cedarguo.github.io/" ，注：这里要用github pages提供的地址，通常大写换成小写字母。
+上传博客或者别的资源后，需要生成静态网站资源：hugo --theme=hyde --baseUrl="http://cedarguo.github.io/" （如果在config.toml中配置过，可以不带参数）
 
 baseUrl为浏览器可部署之后访问的路径，参考“仓库》settings》pages”，theme为自己的主题名。（这些都可以在site/config.toml中设置）
 
 命令执行后，所有静态页面都会生成到 site/public 目录。
+
+3、部署到github pages：
+
+在站点根目录执行hugo命令生成最终页面：hugo --theme=hyde --baseUrl="http://cedarguo.github.io/" 。
+
+注：这里要用github pages提供的地址，通常大写换成小写字母。
+
 只需将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支即可。
 
 git操作：
