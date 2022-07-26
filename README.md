@@ -70,12 +70,22 @@ git push origin master
 执行： git pull origin master --allow-unrelated-histories 即可。
 
 4、外网访问
-http://CedarGuo.github.io/
+https://CedarGuo.github.io/
 
 
-5、配置文件config.toml：
+5、修改配置文件config.toml，自定义博客格式：
 
-baseURL = 'http://example.org/' 改为自己的网站地址
+比如hugo-academic-group模板(https://github.com/biaslab/hugo-academic-group)
+
+把 themes/hugo-academic-group/exampleSite/ 下的所有文件，包括config.toml 复制到 /site/下。
+
+在本地调试：修改配置文件，创建自定义格式
+
+baseURL = 'https://CedarGuo.github.io/' 改为自己的网站地址
 
 theme = "hugo-academic-group" 改为自己theme文件夹下的主题
+
+本地编译： hugo
+
+推送远程仓库
 
