@@ -13,7 +13,7 @@ hugo server --theme=hyde --buildDrafts
 
 上传博客到post路径之后，需要在站点根目录执行hugo命令生成最终页面：
 
-在站点根目录执行：hugo --theme=hyde --baseUrl="http://CedarGuo.github.io/" 
+在站点根目录执行：hugo --theme=hyde --baseUrl="http://cedarguo.github.io/" ，注：这里要用github pages提供的地址，通常大写换成小写字母。
 
 baseUrl为浏览器可部署之后访问的路径，参考“仓库》settings》pages”，theme为自己的主题名。（这些都可以在site/config.toml中设置）
 
